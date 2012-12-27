@@ -39,6 +39,10 @@
   }
   </script>
 <body onload="setup()">
+  <!-- 
+	tabindex attribute is needed in order for divs to capture keyboard invents.
+	http://www.w3.org/WAI/GL/WCAG20/WD-WCAG20-TECHS/SCR29.html
+  -->
   <div id="menu" tabindex="0">
     <div id="menuItem1">item1</div>
     <div id="menuItem2" tabindex="1">item2</div>
